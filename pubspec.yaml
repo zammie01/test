@@ -11,6 +11,7 @@ dependencies:
   shared_preferences: ^2.0.15
   cached_network_image: ^3.2.1
   flutter_svg: ^0.22.0
+  smooth_page_indicator: ^1.0.0+2
   outline_gradient_button: ^2.0.0+1
   intl: ^0.17.0
   permission_handler: ^10.0.0
@@ -32,6 +33,10 @@ flutter:
           weight: 400
         - asset: assets/fonts/MontserratRomanMedium.ttf
           weight: 500
+        - asset: assets/fonts/MontserratRomanBold.ttf
+          weight: 700
+        - asset: assets/fonts/MontserratRomanExtraBold.ttf
+          weight: 800
     - family: Lato
       fonts: 
         - asset: assets/fonts/LatoRegular.ttf
