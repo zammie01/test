@@ -65,6 +65,15 @@ class AppStyle {
     fontWeight: FontWeight.w600,
   );
 
+  static TextStyle txtPoppinsRegular16 = TextStyle(
+    color: ColorConstant.bluegray900,
+    fontSize: getFontSize(
+      16,
+    ),
+    fontFamily: 'Poppins',
+    fontWeight: FontWeight.w400,
+  );
+
   static TextStyle txtMontserratRomanRegular12 = TextStyle(
     color: ColorConstant.whiteA700,
     fontSize: getFontSize(
@@ -101,6 +110,15 @@ class AppStyle {
     fontWeight: FontWeight.w500,
   );
 
+  static TextStyle txtMontserratRomanRegular16 = TextStyle(
+    color: ColorConstant.gray700,
+    fontSize: getFontSize(
+      16,
+    ),
+    fontFamily: 'Montserrat',
+    fontWeight: FontWeight.w400,
+  );
+
   static TextStyle txtMontserratRomanSemiBold12 = TextStyle(
     color: ColorConstant.whiteA700,
     fontSize: getFontSize(
@@ -110,15 +128,6 @@ class AppStyle {
     fontWeight: FontWeight.w600,
   );
 
-  static TextStyle txtMontserratRomanRegular16 = TextStyle(
-    color: ColorConstant.gray900,
-    fontSize: getFontSize(
-      16,
-    ),
-    fontFamily: 'Montserrat',
-    fontWeight: FontWeight.w400,
-  );
-
   static TextStyle txtRobotoRegular16 = TextStyle(
     color: ColorConstant.bluegray400,
     fontSize: getFontSize(
@@ -126,6 +135,24 @@ class AppStyle {
     ),
     fontFamily: 'Roboto',
     fontWeight: FontWeight.w400,
+  );
+
+  static TextStyle txtMontserratRomanBold2721 = TextStyle(
+    color: ColorConstant.purple50,
+    fontSize: getFontSize(
+      27.21,
+    ),
+    fontFamily: 'Montserrat',
+    fontWeight: FontWeight.w700,
+  );
+
+  static TextStyle txtMontserratRomanSemiBold30 = TextStyle(
+    color: ColorConstant.bluegray900,
+    fontSize: getFontSize(
+      30,
+    ),
+    fontFamily: 'Montserrat',
+    fontWeight: FontWeight.w600,
   );
 
   static TextStyle txtMontserratRomanRegular12Black900 = TextStyle(
@@ -162,5 +189,14 @@ class AppStyle {
     ),
     fontFamily: 'Montserrat',
     fontWeight: FontWeight.w500,
+  );
+
+  static TextStyle txtMontserratRomanRegular16Gray900 = TextStyle(
+    color: ColorConstant.gray900,
+    fontSize: getFontSize(
+      16,
+    ),
+    fontFamily: 'Montserrat',
+    fontWeight: FontWeight.w400,
   );
 }

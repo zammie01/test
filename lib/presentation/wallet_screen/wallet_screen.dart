@@ -26,7 +26,7 @@ class WalletScreen extends GetWidget<WalletController> {
                             ])),
                         child: Container(
                             height: getVerticalSize(797.00),
-                            width: getHorizontalSize(390.00),
+                            width: size.width,
                             child: Stack(
                                 alignment: Alignment.topRight,
                                 children: [
@@ -47,9 +47,7 @@ class WalletScreen extends GetWidget<WalletController> {
                                                     child: Container(
                                                         height: getVerticalSize(
                                                             172.00),
-                                                        width:
-                                                            getHorizontalSize(
-                                                                390.00),
+                                                        width: size.width,
                                                         child: Stack(
                                                             alignment: Alignment
                                                                 .center,
@@ -439,7 +437,7 @@ class WalletScreen extends GetWidget<WalletController> {
                                                                             Padding(
                                                                                 padding: getPadding(left: 8, top: 28, bottom: 8),
                                                                                 child: Column(mainAxisSize: MainAxisSize.min, mainAxisAlignment: MainAxisAlignment.start, children: [
-                                                                                  Align(alignment: Alignment.centerLeft, child: Padding(padding: getPadding(right: 10), child: CommonImageView(imagePath: ImageConstant.imgImage1, height: getVerticalSize(12.00), width: getHorizontalSize(13.00)))),
+                                                                                  Align(alignment: Alignment.centerLeft, child: Padding(padding: getPadding(right: 10), child: CommonImageView(imagePath: ImageConstant.imgImage112x13, height: getVerticalSize(12.00), width: getHorizontalSize(13.00)))),
                                                                                   Align(
                                                                                       alignment: Alignment.centerRight,
                                                                                       child: Container(
@@ -789,7 +787,7 @@ class WalletScreen extends GetWidget<WalletController> {
                                                         decoration: AppDecoration.outline.copyWith(
                                                             borderRadius:
                                                                 BorderRadiusStyle
-                                                                    .roundedBorder8),
+                                                                    .roundedBorder7),
                                                         child:
                                                             OutlineGradientButton(
                                                                 padding: EdgeInsets.only(
@@ -837,7 +835,7 @@ class WalletScreen extends GetWidget<WalletController> {
                                                                           children: [
                                                                             Padding(
                                                                                 padding: getPadding(right: 10),
-                                                                                child: Text("msg_see_all_transactions".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtMontserratRomanRegular16)),
+                                                                                child: Text("msg_see_all_transactions".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtMontserratRomanRegular16Gray900)),
                                                                             Padding(
                                                                                 padding: getPadding(top: 8),
                                                                                 child: Text("msg_see_your_recent".tr, overflow: TextOverflow.ellipsis, textAlign: TextAlign.left, style: AppStyle.txtMontserratRomanRegular12Gray900))
@@ -931,7 +929,7 @@ class WalletScreen extends GetWidget<WalletController> {
                                                                   .copyWith(
                                                                       borderRadius:
                                                                           BorderRadiusStyle
-                                                                              .roundedBorder8),
+                                                                              .circleBorder12),
                                                               child: Column(
                                                                   mainAxisSize:
                                                                       MainAxisSize

@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 Size size = WidgetsBinding.instance.window.physicalSize /
     WidgetsBinding.instance.window.devicePixelRatio;
-const num DESIGN_WIDTH = 844;
+const num DESIGN_WIDTH = 390;
 const num DESIGN_HEIGHT = 844;
 const num DESIGN_STATUS_BAR = 31;
 

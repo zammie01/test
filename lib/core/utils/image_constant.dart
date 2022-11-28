@@ -7,15 +7,21 @@ class ImageConstant {
 
   static String imgArrowleft = 'assets/images/img_arrowleft.svg';
 
+  static String imgMenu = 'assets/images/img_menu.svg';
+
   static String imgVideocamera = 'assets/images/img_videocamera.svg';
 
   static String imgRectangle39983 = 'assets/images/img_rectangle39983.png';
+
+  static String imgEllipse733 = 'assets/images/img_ellipse733.png';
 
   static String imgArrowright = 'assets/images/img_arrowright.svg';
 
   static String imgUser = 'assets/images/img_user.svg';
 
   static String imgFrame228 = 'assets/images/img_frame228.png';
+
+  static String imgEllipse732 = 'assets/images/img_ellipse732.png';
 
   static String imgSend = 'assets/images/img_send.svg';
 
@@ -44,6 +50,8 @@ class ImageConstant {
   static String imgBisavefill = 'assets/images/img_bisavefill.png';
 
   static String imgEllipse769 = 'assets/images/img_ellipse769.png';
+
+  static String imgImage112x13 = 'assets/images/img_image1_12x13.png';
 
   static String imgHome = 'assets/images/img_home.svg';
 
